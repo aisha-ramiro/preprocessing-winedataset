@@ -48,3 +48,8 @@ print(x_vinhos_treino.shape, x_vinhos_teste.shape)
 # Salvando os dados processados
 with open('vinhos.pkl', mode='wb') as f:
     pickle.dump((x_vinhos_treino, x_vinhos_teste, y_vinhos_treino, y_vinhos_teste), f)
+
+
+def carregar_dados_processados():
+    with open('vinhos.pkl', 'rb') as f:
+        return pickle.load(f)  
