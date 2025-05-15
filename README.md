@@ -5,7 +5,7 @@ Este projeto é parte da minha trilha de estudos em **Machine Learning e Intelig
 Utilizei o dataset [Wine Quality - Red Wine](https://archive.ics.uci.edu/ml/datasets/wine+quality) da UCI Machine Learning Repository,
 que contém informações físico-químicas sobre diferentes amostras de vinhos tintos, junto à sua avaliação de qualidade sensorial.
 
-## 📊 O que foi feito
+## O que foi feito
 
 - **Importação do dataset** e análise de tipos de dados e valores ausentes.
 - **Análise exploratória**, incluindo:
@@ -16,7 +16,7 @@ que contém informações físico-químicas sobre diferentes amostras de vinhos 
 - **Divisão em dados de treino e teste** utilizando `train_test_split`.
 - **Serialização com Pickle** para salvar os dados prontos para uso em modelos futuros.
 
-- ## 🚀 Tecnologias usadas
+## Tecnologias usadas
 
 - Python 3.13
 - Pandas
@@ -26,5 +26,14 @@ que contém informações físico-químicas sobre diferentes amostras de vinhos 
 - Plotly
 - Scikit-learn
 - Pickle
+- Streamlit
+
+## Visualização com Streamlit
+Para tornar a análise mais acessível e interativa, foi criada uma interface com Streamlit, permitindo:
+
+- Exibição dos dados brutos e processados
+- Visualização dos principais gráficos e estatísticas
+- Inspeção dos dados escalonados
+- Download do dataset .pkl já pronto para ser usado em modelos de machine learning
 
 
